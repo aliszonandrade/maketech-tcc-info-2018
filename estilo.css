@@ -1,0 +1,254 @@
+
+/*** LAYOUT ****/
+
+html, body, .capa{
+	height: 100%;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	color: #fff;
+	background: url('imagens/fundo2.png');
+	background-attachment: fixed;
+	background-size: 1365px 980px;	
+	background-position: -25px 30px;
+	overflow-x: hidden;
+}
+/*** BARRA DE NAVEGAÇÃO ***/
+.navbar-inverse {
+    background-color: #222;
+    border: none;
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+}
+
+.img-logo{
+	margin-left: 60px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	height: 36px;
+	width: 285px;
+	display: block;
+	background: url('imagens/logo-transp.png') no-repeat;
+	background-size: contain;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #989898;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #32DAC4;
+}
+
+
+
+.capa{
+	display: table;
+	width: 100%;
+	margin: 300px 0px 70px 0px;
+	padding-left: 100px;
+}
+.text-capa{
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+}
+.text-capa:hover{
+	color: #30867C;
+}
+
+
+/***CONTEUDO****/
+.conteudo{
+	padding: 50px 0px 130px 0px;
+	border-bottom: 1px solid gray;
+}
+#agencia{
+	text-align: justify;
+	background: #3C3C3B;
+}
+#servicos{
+	
+}
+#portfolio{
+	background: #3C3C3B;
+}
+
+#portfolio img{
+	margin-bottom: 40px;
+	height: 370px;
+	width: 300px;
+}
+
+.btn-lg {
+    padding: 16px 16px;
+    background: #646463;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 0px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-lg:hover{
+	text-decoration: none;
+    background: #292928;
+    color: white;
+}
+
+
+#contato{
+	padding-left: 80px;
+	background: #3C3C3B;
+}
+
+
+#contato form{
+	margin-top: 20px;
+}
+
+#contato input{
+	display: block;
+	height: 50px;
+	margin-bottom: 10px;
+	width: 100%;
+	background: #4C4C4C;
+}
+
+#contato textarea{
+	display: block;
+	height: 220px;
+	margin-bottom: 10px;
+	width: 100%;
+	background: #4C4C4C;
+}
+
+footer{
+	background: url(imagens/fundo-rodape.png);
+	background-attachment: fixed;
+	background-size: 1365px 980px;
+	background-position: -15px 60px;
+	padding: 65px 150px 100px 0px;
+}
+.rdp{
+	padding-left: 10%;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+/*** TIPOGRAFIA ****/
+*{
+	color: #D0D0D0;
+	letter-spacing: -0.9px;
+	font-family: "Tw Cen MT", Arial, sans-serif;
+}
+.menu{
+	font-size: 32px;
+}
+
+
+h1{
+	letter-spacing: -0.006em;
+	font-size: 82px;
+	color: #FFB620;
+}
+
+h1:hover{
+	color: #32DAC4;
+}
+
+h2{
+	font-size: 66px;	
+	color: #FFB620;
+	margin: 50px 0px 60px 0;
+	text-transform: bold;
+	font-weight: bold;
+}
+
+p{	
+	font-size: 28px;
+	padding-right: 60px;
+	text-align: justify;
+}
+
+h3{
+	font-size: 40px;	
+	margin: 50px 0px 0px 0px;
+	color: #32DAC4;
+	text-transform: bold;
+}
+
+#agencia{
+	font-size: 28px;
+	padding-right: 60px;
+	text-align: justify;
+}
+
+#servicos h2, #servicos h3, #portfolio h2, #contato h2{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#servicos p{
+	padding: 0px 60px 0px 60px;
+	font-weight: bold;
+}
+
+#contato h3{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#contato p{
+	font-weight: bold;
+	font-size: 32px;
+}
+
+#contato label{
+	font-weight: bold;
+	font-size: 28px;
+	color: #32DAC4;
+}
+
+#contato input{
+	font-weight: bold;
+	font-size: 32px;
+	color: white;
+}
+
+#contato textarea{
+	color:#fff;
+	font-size: 32px;
+	resize: none;
+}
+
+
+#rodape h3{
+	margin: 0px 0px 0px 0px;
+	color: #646363;
+	font-size: 26px;
+	text-weight: bolder;
+	margin-bottom: 0px;
+}
+
+.espacada-rod{
+	padding-bottom: 40px;
+}
+
+.marcador-rodape{
+	color: #646363;
+	font-size: 34px;
+	text-weight: bolder;
+}
+
